@@ -10,8 +10,8 @@ export default defineConfig({
     rollupOptions: {
       input: path.resolve(__dirname, 'src/main.jsx'),
       output: {
-        entryFileNames: 'main.js', // <---- Nome fixo!
-        assetFileNames: '[name].[ext]' // evita hashes nos arquivos de estilo ou outros
+        entryFileNames: 'main.js', 
+        assetFileNames: '[name].[ext]' 
       }
     }
   }
